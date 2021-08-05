@@ -1,0 +1,19 @@
+government "The Republic of New Galaxy"
+    "attitude toward"
+        "Free Worlds" 10
+        "Hai" 20
+        "Republic" -5
+        "Pirate" -30
+        "Syndicate" -10
+        "Merchant" 100
+        "Korath" -100
+    swizzle 1
+    color .20 .00 .95
+    "player reputation" 100
+    "crew attack" 12
+    "crew defense"10
+    bribe 0.1
+    fine 0.05
+    enforces 
+        government "The Republic of New Galaxy"
+        neighbor government "The Republic of New Galaxy"
