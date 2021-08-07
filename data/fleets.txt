@@ -35,3 +35,29 @@ fleet "Large New Public liberation army"
 		"Super Interceptor" 10
 		"New Life" 3
 		"Super Fighter" 48
+fleet "New Republic expeditionary army"
+	government "The Republic of New Galaxy"
+	names "new republic fleets name"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant
+		"New Life(Far)" 2
+		"Super Fighter" 36
+fleet "Small New Republic alien-attacking army"
+	government "The Republic of New Galaxy"
+	names "new republic fleets name"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant
+		"Super Interceptor(Jump)" 20
+fleet "Large New Republic alien-attacking army"
+	government "The Republic of New Galaxy"
+	names "new republic fleets name"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant
+		"Super Interceptor(Jump)" 10
+		"New Life(Jump)" 3 48

@@ -2,6 +2,8 @@ shipyard "New Rapublic"
 	"New Life"
 	"Super Fighter"
 	"Super Interceptor"
+	"New Life(Far)"
+	"New Life(Jump)"
 ship "New Life"
 	sprite "ship/new life"
 	thumbnail "thumbnail/new life"
@@ -9,7 +11,7 @@ ship "New Life"
 		category "Heavy Warship"
 		"cost" 32100000
 		"shields" 30000
-		"hull" 5000
+		"hull" 5200
 		"required crew" 251
 		"bunks" 874
 		"mass" 2000
@@ -17,7 +19,7 @@ ship "New Life"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 200
-		"outfit space" 3000
+		"outfit space" 2800
 		"weapon capacity" 650
 		"engine capacity" 400
 		weapon
@@ -38,8 +40,6 @@ ship "New Life"
 		"Large Radar Jammer"
 		"Tactical Scanner"
 		"Water Coolant System" 20
-		"Ramscoop" 10
-		"Fuel Pod" 15
 		
 		"Orca Plasma Thruster" 2
 		"Orca Plasma Steering" 2

@@ -8,716 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-trade
-	commodity "Food" 100 600
-		"animal feed"
-		"apples"
-		"applesauce"
-		"avocados"
-		"bananas"
-		"barley"
-		"black beans"
-		"boxed lunches"
-		"bread"
-		"breakfast cereal"
-		"brownie mix"
-		"butter"
-		"cake mix"
-		"canned anchovies"
-		"canned artichokes"
-		"canned beans"
-		"canned chestnuts"
-		"canned fruit"
-		"canned olives"
-		"cattle"
-		"cheese"
-		"chocolate"
-		"cloned meat"
-		"coffee beans"
-		"cookies"
-		"cooking oils"
-		"corn oil"
-		"corn"
-		"crackers"
-		"cured meat"
-		"dairy products"
-		"dried apples"
-		"dried apricots"
-		"dried meat"
-		"dumplings"
-		"eggs"
-		"evaporated milk"
-		"fast food supplies"
-		"fertilizer"
-		"frozen fish"
-		"frozen meat"
-		"frozen pizzas"
-		"frozen vegetables"
-		"garlic"
-		"grain"
-		"guavas"
-		"honey"
-		"hops"
-		"jerky"
-		"lard"
-		"mangoes"
-		"molasses"
-		"oats"
-		"olive oil"
-		"onions"
-		"peanut oil"
-		"pepper"
-		"pickles"
-		"pineapples"
-		"pinto beans"
-		"potatoes"
-		"pretzels"
-		"prunes"
-		"pumpkins"
-		"purified water"
-		"quinoa"
-		"raisins"
-		"ready-to-eat meals"
-		"rice"
-		"salt"
-		"seaweed"
-		"sheep"
-		"shiitake mushrooms"
-		"snack cakes"
-		"soy products"
-		"spices"
-		"split peas"
-		"sugar"
-		"tea"
-		"tortillas"
-		"vanilla"
-		"vinegar"
-		"wheat"
-		"yams"
-	commodity "Clothing" 140 440
-		"beach towels"
-		"blankets"
-		"body armor"
-		"bolts of cloth"
-		"bolts of tweed"
-		"burlap sacks"
-		"canvas"
-		"carpeting"
-		"children's clothing"
-		"coats"
-		"cotton sheets"
-		"cotton thread"
-		"diapers"
-		"denim"
-		"fabric"
-		"flame-retardant fiber"
-		"hats"
-		"helmets"
-		"insulated fabric"
-		"linen sheets"
-		"mannequins"
-		"men's shoes"
-		"parkas"
-		"protective clothing"
-		"rayon"
-		"running shoes"
-		"sailcloth"
-		"socks"
-		"surgical scrubs"
-		"swimsuits"
-		"textiles"
-		"umbrellas"
-		"underwear"
-		"uniforms"
-		"winter coats"
-		"women's shoes"
-		"waterproof fiber"
-		"wool"
-		"work boots"
-	commodity "Metal" 190 590
-		"aluminized steel"
-		"aluminum"
-		"beryllium"
-		"beryllium copper"
-		"brass fittings"
-		"bulk metallic glasses"
-		"cadmium"
-		"cadmium telluride"
-		"cast iron"
-		"chromium"
-		"copper pipes"
-		"copper wire"
-		"copper"
-		"cupronickel"
-		"ductile iron"
-		"gallium"
-		"gallium arsenide"
-		"galvanized steel"
-		"indium"
-		"indium tin oxide"
-		"manganese"
-		"metallic foam"
-		"magnesium"
-		"molybdenum"
-		"monel"
-		"nickel"
-		"niobium"
-		"ore"
-		"osmium"
-		"pig iron"
-		"platinum wool"
-		"platinum"
-		"rebar"
-		"scandium"
-		"sheet metal"
-		"silicon bronze"
-		"silver ingots"
-		"silver"
-		"sintered bronze"
-		"stainless steel"
-		"steel bars"
-		"steel cable"
-		"steel girders"
-		"steel plating"
-		"tin"
-		"titanium"
-		"tool steel blanks"
-		"vanadium"
-		"zinc"
-	commodity "Plastic" 240 540
-		"acetone"
-		"asphalt"
-		"bakelite"
-		"barrels"
-		"carbon nanotubing"
-		"crude oil"
-		"dacron"
-		"diesel oil"
-		"epoxy resin"
-		"gasoline"
-		"high-tensile fibers"
-		"jet fuel"
-		"lacquer"
-		"lacquer thinner"
-		"methanal formaldehyde"
-		"mylar"
-		"nylon fiber"
-		"organic polymers"
-		"paint"
-		"petrochemicals"
-		"petroleum"
-		"plastic pellets"
-		"plastic welding rod"
-		"plastic wrap"
-		"plumber's pipe"
-		"polyethylene"
-		"polymerizing agents"
-		"polystyrene foam"
-		"recycled plastic"
-		"resin"
-		"resorcinol glue"
-		"rubber"
-		"storage tanks"
-		"styrene monomers"
-		"unplasticized PVC"
-		"vinylesters"
-		"xylene"
-	commodity "Equipment" 330 730
-		"3D printers"
-		"CNC machines"
-		"air conditioners"
-		"aircraft hulls"
-		"alarm systems"
-		"bicycles"
-		"breadmaking machines"
-		"cameras"
-		"cargo containers"
-		"cement mixers"
-		"collimators"
-		"combustion engines"
-		"dehumidifiers"
-		"electric motors"
-		"exhaust fans"
-		"extension ladders"
-		"fasteners"
-		"fencing"
-		"floodlights"
-		"flow meters"
-		"freezers"
-		"fuel tanks"
-		"harvesters"
-		"hoverskates"
-		"humidifiers"
-		"hydraulic pumps"
-		"injection molds"
-		"jet engines"
-		"kilns"
-		"lapidary saws"
-		"mass spectrometers"
-		"mowers"
-		"ovens"
-		"pallets"
-		"particle analyzers"
-		"power tools"
-		"radar arrays"
-		"refrigerators"
-		"scaffolding"
-		"scales"
-		"sonar arrays"
-		"sonic chainsaws"
-		"space heaters"
-		"spacecraft hulls"
-		"steam engines"
-		"sump pumps"
-		"tavern fixtures"
-		"theatrical props"
-		"toilets"
-		"tools"
-		"tractor parts"
-		"transits"
-		"turbines"
-		"valves"
-		"vehicle chassis"
-		"vehicles"
-		"ventilators"
-		"water heaters"
-		"water purifiers"
-		"water tanks"
-		"welding robots"
-		"welding torches"
-		"wheelbarrows"
-		"whiskey barrels"
-	commodity "Medical" 430 930
-		"antibacterials"
-		"antibiotics"
-		"anti-inflammatories"
-		"antivirals"
-		"arm slings"
-		"artificial blood"
-		"artificial limbs"
-		"artificial organs"
-		"autoclaves"
-		"bandages"
-		"battlefield trauma kits"
-		"bedpans"
-		"body bags"
-		"coffins"
-		"cough drops"
-		"diagnostic devices"
-		"disposable gloves"
-		"disposable syringes"
-		"empty syringes"
-		"first aid kits"
-		"gauze pads"
-		"hospital beds"
-		"hydrogen peroxide"
-		"intravenous fluids"
-		"medical implants"
-		"medical leeches"
-		"medical supplies"
-		"medicine"
-		"microscopes"
-		"nutritional supplements"
-		"ointment"
-		"painkillers"
-		"pharmaceuticals"
-		"prosthetic limbs"
-		"rubbing alcohol"
-		"scanners"
-		"surgical equipment"
-		"tourniquets"
-		"tranquilizers"
-		"tweezers"
-	commodity "Industrial" 520 920
-		"aniline dyes"
-		"assorted shimstock"
-		"battery acid"
-		"blast furnaces"
-		"blast shields"
-		"bleach"
-		"boilers"
-		"catalytic converters"
-		"caustic alkalis"
-		"cement mix"
-		"ceramics"
-		"clay"
-		"coolant"
-		"degreaser fluid"
-		"diamond grit"
-		"drive shafts"
-		"electrical wire"
-		"elevator modules"
-		"enamel ovens"
-		"fiberglass"
-		"gravel"
-		"heat exchangers"
-		"industrial catalysts"
-		"industrial lasers"
-		"industrial solvents"
-		"insecticides"
-		"insulation"
-		"lathes"
-		"light bulbs"
-		"liquid nitrogen"
-		"liquid oxygen"
-		"lubricants"
-		"lumber"
-		"microfluidics"
-		"milling machines"
-		"molly bolts"
-		"nails"
-		"optical lenses"
-		"paint remover"
-		"paint"
-		"parts tumblers"
-		"pesticides"
-		"pickling vats"
-		"plasma cutters"
-		"polishing machines"
-		"prefab structures"
-		"quicklime"
-		"refractory bricks"
-		"sand"
-		"screws"
-		"safety equipment"
-		"semiconductors"
-		"stainless tubing"
-		"staples"
-		"stem bolts"
-		"surface planers"
-		"telescopes"
-		"testing equipment"
-		"thruster assemblies"
-		"timber"
-		"turret lathes"
-		"vacuum cleaners"
-		"varnish"
-	commodity "Electronics" 590 890
-		"accelerometers"
-		"amplifiers"
-		"batteries"
-		"capacitors"
-		"circuit boards"
-		"cloud chambers"
-		"cooling fans"
-		"data storage modules"
-		"de-ionizers"
-		"diodes"
-		"display screens"
-		"electrical transformers"
-		"fiber optic cable"
-		"framulators"
-		"fuel cells"
-		"haptic materials"
-		"heat sinks"
-		"hygrometers"
-		"integrated circuits"
-		"inverters"
-		"ionizers"
-		"light emitting diodes"
-		"memory modules"
-		"microchips"
-		"microswitches"
-		"microtransistors"
-		"microwave emitters"
-		"monitors"
-		"motherboards"
-		"nichrome wire"
-		"optical drives"
-		"optocouplers"
-		"piezoelectrics"
-		"potentiometers"
-		"power supplies"
-		"processing units"
-		"quantum resonators"
-		"resistors"
-		"rod logic modules"
-		"semiconductors"
-		"sensors"
-		"silicon wafers"
-		"solar panels"
-		"soldering irons"
-		"solid-state relays"
-		"speaker modules"
-		"supercapacitive fiber"
-		"supercapacitors"
-		"supercomputers"
-		"tactile switches"
-		"thermal paste"
-		"thermoelectrics"
-		"touchscreens"
-		"trackpads"
-		"vacuum tubes"
-		"voltage converters"
-		"wireless receivers"
-	commodity "Heavy Metals" 610 1310
-		"actinide metals"
-		"barium"
-		"bismuth"
-		"depleted uranium"
-		"fuel rods"
-		"gold sheets"
-		"gold wire"
-		"gold"
-		"lanthanide metals"
-		"lead"
-		"mercury"
-		"neodymium"
-		"neptunium"
-		"plutonium"
-		"polonium"
-		"raw pitchblende"
-		"reactor-grade plutonium"
-		"reactor-grade uranium"
-		"thorium"
-		"tungsten"
-	commodity "Luxury Goods" 920 1520
-		"antique swords"
-		"bawdy magazines"
-		"brandy"
-		"champagne"
-		"cigars"
-		"cocktail dresses"
-		"cognac"
-		"companion robots"
-		"cosmetic implants"
-		"cosmetics"
-		"custom pens"
-		"designer clothing"
-		"designer suits"
-		"dueling sabers"
-		"exotic carpets"
-		"exotic hardwoods"
-		"fine art"
-		"fine furniture"
-		"fur coats"
-		"golf clubs"
-		"grandfather clocks"
-		"handbags"
-		"high-performance automobiles"
-		"hoverskis"
-		"jewelry"
-		"lawn furniture"
-		"leather"
-		"liqueurs"
-		"live lobsters"
-		"luxury fabrics"
-		"marble"
-		"mineral water"
-		"monogrammed handkerchiefs"
-		"natural diamonds"
-		"numismatic folders"
-		"orchids"
-		"paintings"
-		"paragliders"
-		"perfume"
-		"pleasure craft"
-		"pocket watches"
-		"porcelain"
-		"replica Ming vases"
-		"replica tribal masks"
-		"saffron"
-		"sculptures"
-		"silk"
-		"silver spoons"
-		"surfboards"
-		"tobacco"
-		"Venetian blinds"
-		"vodka"
-		"whiskey"
-		"wine"
-		"yachts"
-	commodity "Garbage"
-		"animal by-products"
-		"biological waste"
-		"broken appliances"
-		"combustion ash"
-		"construction debris"
-		"construction waste"
-		"contaminated water"
-		"dead batteries"
-		"diseased meat"
-		"garbage"
-		"household waste"
-		"hazardous chemicals"
-		"industrial waste"
-		"infected lab samples"
-		"junk"
-		"old newspapers"
-		"outdated computers"
-		"processed sewage"
-		"medical waste"
-		"mine waste"
-		"mine tailings"
-		"radioactive waste"
-		"rotten vegetables"
-		"rotten fruit"
-		"rotten eggs"
-		"rubbish"
-		"secondhand clothes"
-		"slag"
-		"sludge"
-		"scrap electronics"
-		"slaughterhouse runoff"
-		"spent nuclear fuel"
-		"thermoset polymer waste"
-		"trash"
-		"used syringes"
-		"volatile gases"
-	commodity "Construction"
-		"box girders"
-		"carbon steel"
-		"composite beams"
-		"composite fibers"
-		"girders"
-		"I-beams"
-		"joint plates"
-		"metal joists"
-		"metal trusses"
-		"pylons"
-		"rivets"
-		"rolled steel"
-		"sheet metal"
-		"steel beams"
-		"steel bolts"
-		"steel struts"
-		"structural steel"
-		"tee joints"
-		"welding rods"
-	commodity "Illegal Substances"
-		"bad blues"
-		"boosters"
-		"bootleg alcohol"
-		"cores"
-		"deeps"
-		"flavor drops"
-		"good reds"
-		"hallucinogens"
-		"horse tranquilizers"
-		"knockout pills"
-		"memory chips"
-		"narcotics"
-		"opium"
-		"quasars"
-		"red giants"
-		"southern snacks"
-		"space weed"
-		"steam"
-		"steroids"
-		"stolen pharmaceuticals"
-	commodity "Highly Illegal Substances"
-		"death sticks"
-		"fire apples"
-		"hot wings"
-		"ringworld shavings"
-		"solaris joyrides"
-		"stardust"
-		"toad juice"
-		"whale blubber"
-	commodity "Illegal Cargo"
-		"automatic rifles"
-		"ballistic munitions"
-		"conflict minerals"
-		"counterfeit artwork"
-		"counterfeit credits"
-		"counterfeit sculptures"
-		"embargoed goods"
-		"explosives"
-		"fake organs"
-		"faux leather"
-		"forged IDs"
-		"illegal firearms"
-		"knockoff designer clothing"
-		"knockoff exotic carpets"
-		"knockoff fine art"
-		"knockoff fine furniture"
-		"knockoff handbags"
-		"knockoff paintings"
-		"knockoff perfume"
-		"knockoff pocket watches"
-		"land mines"
-		"military weapons"
-		"napalm"
-		"nerve gas"
-		"pig hearts"
-		"pig kidneys"
-		"pig lungs"
-		"remote detonators"
-		"RPGs"
-		"small aerial drones"
-		"small terrestrial drones"
-		"stolen artwork"
-		"stolen automobiles"
-		"stolen blueprints"
-		"stolen cloud chambers"
-		"stolen companion robots"
-		"stolen cosmetic implants"
-		"stolen de-ionizers"
-		"stolen electronics"
-		"stolen exotic hardwoods"
-		"stolen fiber optic cable"
-		"stolen fuel cells"
-		"stolen golf clubs"
-		"stolen haptic materials"
-		"stolen hoverskis"
-		"stolen hygrometers"
-		"stolen identities"
-		"stolen jewelry"
-		"stolen lawn furniture"
-		"stolen microchips"
-		"stolen microwave emitters"
-		"stolen numismatic folders"
-		"stolen optocouplers"
-		"stolen pleasure crafts"
-		"stolen records"
-		"stolen replica Ming vases"
-		"stolen replica tribal masks"
-		"stolen sculptures"
-		"stolen ship parts"
-		"stolen weapons"
-		"torture devices"
-		"unregistered IFF modules"
-		"untaxed brandy"
-		"untaxed champagne"
-		"untaxed cognac"
-		"untaxed liqueurs"
-		"untaxed tobacco"
-		"untaxed vodka"
-		"untaxed whiskey"
-		"untaxed wine"
-		"untraceable electronics"
-		"weaponized cows"
-		"weaponized pigs"
-	commodity "Highly Illegal Cargo"
-		"biochemical weapons"
-		"human bones"
-		"human brains"
-		"human hearts"
-		"human kidneys"
-		"human lungs"
-		"endangered animals"
-		"endangered plants"
-		"enriched uranium"
-		"outlawed pesticides"
-		"plundered artifacts"
-		"stolen antique swords"
-		"stolen artifacts"
-		"stolen framulators"
-		"stolen quantum resonators"
-		"stolen silver spoons"
-		"stolen supercomputers"
-		"stolen yachts"
-		"undeclared nuclear fuel"
-		"weaponized chickens"
-	commodity "void sprite parts"
-		"void sprite parts"
-		"void sprite limbs"
-		"dismembered void sprites"
-	commodity "weapons"
-		"firearms"
-
-
-
 galaxy "Milky Way"
 	pos 0 0
 	sprite ui/galaxy
@@ -22261,6 +21551,9 @@ system "Kaus Borealis"
 			belt 1074
 			haze _menu/haze-133
 
+system Kerbol
+	pos -350.771 66.7242
+
 system "Ki War Ek"
 	pos -1106.63 368.214
 	government Heliarch
@@ -23059,6 +22352,8 @@ system "Kor En'lakfar"
 	trade Plastic 488
 	fleet "Korath Raid" 600
 	fleet "Korath Home" 1800
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1115
 	haze _menu/haze-133
@@ -23169,6 +22464,8 @@ system "Kor Fel'tar"
 	trade Plastic 478
 	fleet "Korath Raid" 1600
 	fleet "Korath Home" 900
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1444
 	haze _menu/haze-blackbody
@@ -23288,6 +22585,8 @@ system "Kor Men"
 	trade Plastic 497
 	fleet "Korath Raid" 1300
 	fleet "Korath Home" 600
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1260
 	haze _menu/haze-blackbody
@@ -23399,6 +22698,8 @@ system "Kor Nor'peli"
 	trade Plastic 423
 	fleet "Korath Raid" 1000
 	fleet "Korath Home" 500
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1213
 	haze _menu/haze-blackbody
@@ -23501,6 +22802,8 @@ system "Kor Tar'bei"
 	trade Plastic 402
 	fleet "Korath Raid" 1200
 	fleet "Korath Home" 600
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1614
 	haze _menu/haze-blackbody
@@ -23589,6 +22892,8 @@ system "Kor Zena'i"
 	trade Plastic 381
 	fleet "Korath Raid" 800
 	fleet "Korath Home" 1100
+	fleet "Small New Republic alien-attacking army" 800
+	fleet "Large New Republic alien-attacking army" 1500
 	attributes korath
 	belt 1866
 	haze _menu/haze-blackbody
@@ -28539,7 +27844,6 @@ system Nenia
 
 system "New beginning"
 	pos 95.3917 -9.23518
-	attributes core
 	government "The Republic of New Galaxy"
 	habitable 320
 	link Sheratan
@@ -28565,6 +27869,7 @@ system "New beginning"
 	fleet "Small Core Pirates" 5000
 	fleet "Large Independent" 20000
 	fleet "Korath Human Attacker" 2000
+	attributes core
 	belt 1232
 	minables iron 100 2.7345
 	minables gold 50 2.7345
@@ -28580,9 +27885,9 @@ system "New beginning"
 	minables uranium 100 2
 	minables yottrite 100 2
 	object
-		attributes core
 		sprite star/star1
 		period 10
+		attributes core
 		belt 1232
 		minables iron 100 2.7345
 		minables gold 50 2.7345
@@ -28598,44 +27903,84 @@ system "New beginning"
 		minables uranium 100 2
 		minables yottrite 100 2
 	object "God's Gift"
-		attributes core
 		sprite planet/normal1
-		distance 1232.925
+		distance 1232.92
 		period 214.112
 		offset 67.5136
-		belt 1232
-		minables iron 50 2.7345
-		minables gold 25 2.7345
-		minables silicon 25 2.7345
-	object
 		attributes core
+		belt 1232
+		minables iron 100 2.7345
+		minables gold 50 2.7345
+		minables silicon 100 2.7345
+		minables aluminum 100 2
+		minables copper 100 2
+		minables lead 100 2
+		minables neodymium 100 2
+		minables platinum 100 2
+		minables silver 75 2
+		minables titanium 100 2
+		minables tungsten 100 2
+		minables uranium 100 2
+		minables yottrite 100 2
+	object
 		sprite planet/gasGiant1
 		distance 1990.73
 		period 1986.1
 		offset 242.659
+		attributes core
 		belt 1232
-		minables iron 50 2.7345
-		minables gold 25 2.7345
-		minables silicon 25 2.7345
+		minables iron 100 2.7345
+		minables gold 50 2.7345
+		minables silicon 100 2.7345
+		minables aluminum 100 2
+		minables copper 100 2
+		minables lead 100 2
+		minables neodymium 100 2
+		minables platinum 100 2
+		minables silver 75 2
+		minables titanium 100 2
+		minables tungsten 100 2
+		minables uranium 100 2
+		minables yottrite 100 2
 		object
 			sprite planet/bigRock1
-			attributes core
 			distance 721
 			period 13.76
+			attributes core
 			belt 1232
-			minables iron 50 2.7345
-			minables gold 25 2.7345
-			minables silicon 25 2.7345
+			minables iron 100 2.7345
+			minables gold 50 2.7345
+			minables silicon 100 2.7345
+			minables aluminum 100 2
+			minables copper 100 2
+			minables lead 100 2
+			minables neodymium 100 2
+			minables platinum 100 2
+			minables silver 75 2
+			minables titanium 100 2
+			minables tungsten 100 2
+			minables uranium 100 2
+			minables yottrite 100 2
 		object
 			sprite planet/smallRock1
-			attributes core
 			distance 421
 			period 53.3922
 			offset 350.214
+			attributes core
 			belt 1232
-			minables iron 50 2.7345
-			minables gold 25 2.7345
-			minables silicon 25 2.7345
+			minables iron 100 2.7345
+			minables gold 50 2.7345
+			minables silicon 100 2.7345
+			minables aluminum 100 2
+			minables copper 100 2
+			minables lead 100 2
+			minables neodymium 100 2
+			minables platinum 100 2
+			minables silver 75 2
+			minables titanium 100 2
+			minables tungsten 100 2
+			minables uranium 100 2
+			minables yottrite 100 2
 
 system Nihal
 	pos -262 -121
@@ -43184,12 +42529,12 @@ planet Glory
 		fleet "Large Republic" 16
 
 planet "God's Gift"
-	landscape land/snow13
 	attributes core
+	landscape land/snow13
 	spaceport `A small spaceport,but it seems crowded and new.`
-	outfitter "Common Outfits"
 	shipyard "Basic Ships"
 	shipyard "New Rapublic"
+	outfitter "Common Outfits"
 	"required reputation" -200
 	bribe 0
 	security 0
@@ -45642,4 +44987,712 @@ planet Zug
 	tribute 1200
 		threshold 3000
 		fleet "Large Militia" 18
+
+trade
+	commodity Food 100 600
+		"animal feed"
+		apples
+		applesauce
+		avocados
+		bananas
+		barley
+		"black beans"
+		"boxed lunches"
+		bread
+		"breakfast cereal"
+		"brownie mix"
+		butter
+		"cake mix"
+		"canned anchovies"
+		"canned artichokes"
+		"canned beans"
+		"canned chestnuts"
+		"canned fruit"
+		"canned olives"
+		cattle
+		cheese
+		chocolate
+		"cloned meat"
+		"coffee beans"
+		cookies
+		"cooking oils"
+		"corn oil"
+		corn
+		crackers
+		"cured meat"
+		"dairy products"
+		"dried apples"
+		"dried apricots"
+		"dried meat"
+		dumplings
+		eggs
+		"evaporated milk"
+		"fast food supplies"
+		fertilizer
+		"frozen fish"
+		"frozen meat"
+		"frozen pizzas"
+		"frozen vegetables"
+		garlic
+		grain
+		guavas
+		honey
+		hops
+		jerky
+		lard
+		mangoes
+		molasses
+		oats
+		"olive oil"
+		onions
+		"peanut oil"
+		pepper
+		pickles
+		pineapples
+		"pinto beans"
+		potatoes
+		pretzels
+		prunes
+		pumpkins
+		"purified water"
+		quinoa
+		raisins
+		"ready-to-eat meals"
+		rice
+		salt
+		seaweed
+		sheep
+		"shiitake mushrooms"
+		"snack cakes"
+		"soy products"
+		spices
+		"split peas"
+		sugar
+		tea
+		tortillas
+		vanilla
+		vinegar
+		wheat
+		yams
+	commodity Clothing 140 440
+		"beach towels"
+		blankets
+		"body armor"
+		"bolts of cloth"
+		"bolts of tweed"
+		"burlap sacks"
+		canvas
+		carpeting
+		"children's clothing"
+		coats
+		"cotton sheets"
+		"cotton thread"
+		diapers
+		denim
+		fabric
+		"flame-retardant fiber"
+		hats
+		helmets
+		"insulated fabric"
+		"linen sheets"
+		mannequins
+		"men's shoes"
+		parkas
+		"protective clothing"
+		rayon
+		"running shoes"
+		sailcloth
+		socks
+		"surgical scrubs"
+		swimsuits
+		textiles
+		umbrellas
+		underwear
+		uniforms
+		"winter coats"
+		"women's shoes"
+		"waterproof fiber"
+		wool
+		"work boots"
+	commodity Metal 190 590
+		"aluminized steel"
+		aluminum
+		beryllium
+		"beryllium copper"
+		"brass fittings"
+		"bulk metallic glasses"
+		cadmium
+		"cadmium telluride"
+		"cast iron"
+		chromium
+		"copper pipes"
+		"copper wire"
+		copper
+		cupronickel
+		"ductile iron"
+		gallium
+		"gallium arsenide"
+		"galvanized steel"
+		indium
+		"indium tin oxide"
+		manganese
+		"metallic foam"
+		magnesium
+		molybdenum
+		monel
+		nickel
+		niobium
+		ore
+		osmium
+		"pig iron"
+		"platinum wool"
+		platinum
+		rebar
+		scandium
+		"sheet metal"
+		"silicon bronze"
+		"silver ingots"
+		silver
+		"sintered bronze"
+		"stainless steel"
+		"steel bars"
+		"steel cable"
+		"steel girders"
+		"steel plating"
+		tin
+		titanium
+		"tool steel blanks"
+		vanadium
+		zinc
+	commodity Plastic 240 540
+		acetone
+		asphalt
+		bakelite
+		barrels
+		"carbon nanotubing"
+		"crude oil"
+		dacron
+		"diesel oil"
+		"epoxy resin"
+		gasoline
+		"high-tensile fibers"
+		"jet fuel"
+		lacquer
+		"lacquer thinner"
+		"methanal formaldehyde"
+		mylar
+		"nylon fiber"
+		"organic polymers"
+		paint
+		petrochemicals
+		petroleum
+		"plastic pellets"
+		"plastic welding rod"
+		"plastic wrap"
+		"plumber's pipe"
+		polyethylene
+		"polymerizing agents"
+		"polystyrene foam"
+		"recycled plastic"
+		resin
+		"resorcinol glue"
+		rubber
+		"storage tanks"
+		"styrene monomers"
+		"unplasticized PVC"
+		vinylesters
+		xylene
+	commodity Equipment 330 730
+		"3D printers"
+		"CNC machines"
+		"air conditioners"
+		"aircraft hulls"
+		"alarm systems"
+		bicycles
+		"breadmaking machines"
+		cameras
+		"cargo containers"
+		"cement mixers"
+		collimators
+		"combustion engines"
+		dehumidifiers
+		"electric motors"
+		"exhaust fans"
+		"extension ladders"
+		fasteners
+		fencing
+		floodlights
+		"flow meters"
+		freezers
+		"fuel tanks"
+		harvesters
+		hoverskates
+		humidifiers
+		"hydraulic pumps"
+		"injection molds"
+		"jet engines"
+		kilns
+		"lapidary saws"
+		"mass spectrometers"
+		mowers
+		ovens
+		pallets
+		"particle analyzers"
+		"power tools"
+		"radar arrays"
+		refrigerators
+		scaffolding
+		scales
+		"sonar arrays"
+		"sonic chainsaws"
+		"space heaters"
+		"spacecraft hulls"
+		"steam engines"
+		"sump pumps"
+		"tavern fixtures"
+		"theatrical props"
+		toilets
+		tools
+		"tractor parts"
+		transits
+		turbines
+		valves
+		"vehicle chassis"
+		vehicles
+		ventilators
+		"water heaters"
+		"water purifiers"
+		"water tanks"
+		"welding robots"
+		"welding torches"
+		wheelbarrows
+		"whiskey barrels"
+	commodity Medical 430 930
+		antibacterials
+		antibiotics
+		anti-inflammatories
+		antivirals
+		"arm slings"
+		"artificial blood"
+		"artificial limbs"
+		"artificial organs"
+		autoclaves
+		bandages
+		"battlefield trauma kits"
+		bedpans
+		"body bags"
+		coffins
+		"cough drops"
+		"diagnostic devices"
+		"disposable gloves"
+		"disposable syringes"
+		"empty syringes"
+		"first aid kits"
+		"gauze pads"
+		"hospital beds"
+		"hydrogen peroxide"
+		"intravenous fluids"
+		"medical implants"
+		"medical leeches"
+		"medical supplies"
+		medicine
+		microscopes
+		"nutritional supplements"
+		ointment
+		painkillers
+		pharmaceuticals
+		"prosthetic limbs"
+		"rubbing alcohol"
+		scanners
+		"surgical equipment"
+		tourniquets
+		tranquilizers
+		tweezers
+	commodity Industrial 520 920
+		"aniline dyes"
+		"assorted shimstock"
+		"battery acid"
+		"blast furnaces"
+		"blast shields"
+		bleach
+		boilers
+		"catalytic converters"
+		"caustic alkalis"
+		"cement mix"
+		ceramics
+		clay
+		coolant
+		"degreaser fluid"
+		"diamond grit"
+		"drive shafts"
+		"electrical wire"
+		"elevator modules"
+		"enamel ovens"
+		fiberglass
+		gravel
+		"heat exchangers"
+		"industrial catalysts"
+		"industrial lasers"
+		"industrial solvents"
+		insecticides
+		insulation
+		lathes
+		"light bulbs"
+		"liquid nitrogen"
+		"liquid oxygen"
+		lubricants
+		lumber
+		microfluidics
+		"milling machines"
+		"molly bolts"
+		nails
+		"optical lenses"
+		"paint remover"
+		paint
+		"parts tumblers"
+		pesticides
+		"pickling vats"
+		"plasma cutters"
+		"polishing machines"
+		"prefab structures"
+		quicklime
+		"refractory bricks"
+		sand
+		screws
+		"safety equipment"
+		semiconductors
+		"stainless tubing"
+		staples
+		"stem bolts"
+		"surface planers"
+		telescopes
+		"testing equipment"
+		"thruster assemblies"
+		timber
+		"turret lathes"
+		"vacuum cleaners"
+		varnish
+	commodity Electronics 590 890
+		accelerometers
+		amplifiers
+		batteries
+		capacitors
+		"circuit boards"
+		"cloud chambers"
+		"cooling fans"
+		"data storage modules"
+		de-ionizers
+		diodes
+		"display screens"
+		"electrical transformers"
+		"fiber optic cable"
+		framulators
+		"fuel cells"
+		"haptic materials"
+		"heat sinks"
+		hygrometers
+		"integrated circuits"
+		inverters
+		ionizers
+		"light emitting diodes"
+		"memory modules"
+		microchips
+		microswitches
+		microtransistors
+		"microwave emitters"
+		monitors
+		motherboards
+		"nichrome wire"
+		"optical drives"
+		optocouplers
+		piezoelectrics
+		potentiometers
+		"power supplies"
+		"processing units"
+		"quantum resonators"
+		resistors
+		"rod logic modules"
+		semiconductors
+		sensors
+		"silicon wafers"
+		"solar panels"
+		"soldering irons"
+		"solid-state relays"
+		"speaker modules"
+		"supercapacitive fiber"
+		supercapacitors
+		supercomputers
+		"tactile switches"
+		"thermal paste"
+		thermoelectrics
+		touchscreens
+		trackpads
+		"vacuum tubes"
+		"voltage converters"
+		"wireless receivers"
+	commodity "Heavy Metals" 610 1310
+		"actinide metals"
+		barium
+		bismuth
+		"depleted uranium"
+		"fuel rods"
+		"gold sheets"
+		"gold wire"
+		gold
+		"lanthanide metals"
+		lead
+		mercury
+		neodymium
+		neptunium
+		plutonium
+		polonium
+		"raw pitchblende"
+		"reactor-grade plutonium"
+		"reactor-grade uranium"
+		thorium
+		tungsten
+	commodity "Luxury Goods" 920 1520
+		"antique swords"
+		"bawdy magazines"
+		brandy
+		champagne
+		cigars
+		"cocktail dresses"
+		cognac
+		"companion robots"
+		"cosmetic implants"
+		cosmetics
+		"custom pens"
+		"designer clothing"
+		"designer suits"
+		"dueling sabers"
+		"exotic carpets"
+		"exotic hardwoods"
+		"fine art"
+		"fine furniture"
+		"fur coats"
+		"golf clubs"
+		"grandfather clocks"
+		handbags
+		"high-performance automobiles"
+		hoverskis
+		jewelry
+		"lawn furniture"
+		leather
+		liqueurs
+		"live lobsters"
+		"luxury fabrics"
+		marble
+		"mineral water"
+		"monogrammed handkerchiefs"
+		"natural diamonds"
+		"numismatic folders"
+		orchids
+		paintings
+		paragliders
+		perfume
+		"pleasure craft"
+		"pocket watches"
+		porcelain
+		"replica Ming vases"
+		"replica tribal masks"
+		saffron
+		sculptures
+		silk
+		"silver spoons"
+		surfboards
+		tobacco
+		"Venetian blinds"
+		vodka
+		whiskey
+		wine
+		yachts
+	commodity Garbage
+		"animal by-products"
+		"biological waste"
+		"broken appliances"
+		"combustion ash"
+		"construction debris"
+		"construction waste"
+		"contaminated water"
+		"dead batteries"
+		"diseased meat"
+		garbage
+		"household waste"
+		"hazardous chemicals"
+		"industrial waste"
+		"infected lab samples"
+		junk
+		"old newspapers"
+		"outdated computers"
+		"processed sewage"
+		"medical waste"
+		"mine waste"
+		"mine tailings"
+		"radioactive waste"
+		"rotten vegetables"
+		"rotten fruit"
+		"rotten eggs"
+		rubbish
+		"secondhand clothes"
+		slag
+		sludge
+		"scrap electronics"
+		"slaughterhouse runoff"
+		"spent nuclear fuel"
+		"thermoset polymer waste"
+		trash
+		"used syringes"
+		"volatile gases"
+	commodity Construction
+		"box girders"
+		"carbon steel"
+		"composite beams"
+		"composite fibers"
+		girders
+		I-beams
+		"joint plates"
+		"metal joists"
+		"metal trusses"
+		pylons
+		rivets
+		"rolled steel"
+		"sheet metal"
+		"steel beams"
+		"steel bolts"
+		"steel struts"
+		"structural steel"
+		"tee joints"
+		"welding rods"
+	commodity "Illegal Substances"
+		"bad blues"
+		boosters
+		"bootleg alcohol"
+		cores
+		deeps
+		"flavor drops"
+		"good reds"
+		hallucinogens
+		"horse tranquilizers"
+		"knockout pills"
+		"memory chips"
+		narcotics
+		opium
+		quasars
+		"red giants"
+		"southern snacks"
+		"space weed"
+		steam
+		steroids
+		"stolen pharmaceuticals"
+	commodity "Highly Illegal Substances"
+		"death sticks"
+		"fire apples"
+		"hot wings"
+		"ringworld shavings"
+		"solaris joyrides"
+		stardust
+		"toad juice"
+		"whale blubber"
+	commodity "Illegal Cargo"
+		"automatic rifles"
+		"ballistic munitions"
+		"conflict minerals"
+		"counterfeit artwork"
+		"counterfeit credits"
+		"counterfeit sculptures"
+		"embargoed goods"
+		explosives
+		"fake organs"
+		"faux leather"
+		"forged IDs"
+		"illegal firearms"
+		"knockoff designer clothing"
+		"knockoff exotic carpets"
+		"knockoff fine art"
+		"knockoff fine furniture"
+		"knockoff handbags"
+		"knockoff paintings"
+		"knockoff perfume"
+		"knockoff pocket watches"
+		"land mines"
+		"military weapons"
+		napalm
+		"nerve gas"
+		"pig hearts"
+		"pig kidneys"
+		"pig lungs"
+		"remote detonators"
+		RPGs
+		"small aerial drones"
+		"small terrestrial drones"
+		"stolen artwork"
+		"stolen automobiles"
+		"stolen blueprints"
+		"stolen cloud chambers"
+		"stolen companion robots"
+		"stolen cosmetic implants"
+		"stolen de-ionizers"
+		"stolen electronics"
+		"stolen exotic hardwoods"
+		"stolen fiber optic cable"
+		"stolen fuel cells"
+		"stolen golf clubs"
+		"stolen haptic materials"
+		"stolen hoverskis"
+		"stolen hygrometers"
+		"stolen identities"
+		"stolen jewelry"
+		"stolen lawn furniture"
+		"stolen microchips"
+		"stolen microwave emitters"
+		"stolen numismatic folders"
+		"stolen optocouplers"
+		"stolen pleasure crafts"
+		"stolen records"
+		"stolen replica Ming vases"
+		"stolen replica tribal masks"
+		"stolen sculptures"
+		"stolen ship parts"
+		"stolen weapons"
+		"torture devices"
+		"unregistered IFF modules"
+		"untaxed brandy"
+		"untaxed champagne"
+		"untaxed cognac"
+		"untaxed liqueurs"
+		"untaxed tobacco"
+		"untaxed vodka"
+		"untaxed whiskey"
+		"untaxed wine"
+		"untraceable electronics"
+		"weaponized cows"
+		"weaponized pigs"
+	commodity "Highly Illegal Cargo"
+		"biochemical weapons"
+		"human bones"
+		"human brains"
+		"human hearts"
+		"human kidneys"
+		"human lungs"
+		"endangered animals"
+		"endangered plants"
+		"enriched uranium"
+		"outlawed pesticides"
+		"plundered artifacts"
+		"stolen antique swords"
+		"stolen artifacts"
+		"stolen framulators"
+		"stolen quantum resonators"
+		"stolen silver spoons"
+		"stolen supercomputers"
+		"stolen yachts"
+		"undeclared nuclear fuel"
+		"weaponized chickens"
+	commodity "void sprite parts"
+		"void sprite parts"
+		"void sprite limbs"
+		"dismembered void sprites"
+	commodity weapons
+		firearms
 
