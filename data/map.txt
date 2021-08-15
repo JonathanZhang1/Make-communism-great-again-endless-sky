@@ -9744,7 +9744,7 @@ system Caph
 
 system Cardax
 	pos -211 -215
-	government Republic
+	government "The Republic of New Galaxy"
 	habitable 1705
 	link Moktar
 	link Volax
@@ -21553,6 +21553,7 @@ system "Kaus Borealis"
 
 system Kerbol
 	pos -350.771 66.7242
+	habitable nan
 
 system "Ki War Ek"
 	pos -1106.63 368.214
@@ -27053,7 +27054,7 @@ system Mizar
 
 system Moktar
 	pos -169 -170
-	government Syndicate
+	government "The Republic of New Galaxy"
 	habitable 455
 	link Oblate
 	link Cardax
@@ -36457,7 +36458,7 @@ system Solifar
 
 system Sospi
 	pos -317 -161
-	government Republic
+	government "The Republic of New Galaxy"
 	habitable 1715
 	link Volax
 	link Nihal
@@ -39380,7 +39381,7 @@ system Vindemiatrix
 
 system Volax
 	pos -256 -179
-	government Republic
+	government "The Republic of New Galaxy"
 	habitable 1715
 	link Cardax
 	link Nihal
