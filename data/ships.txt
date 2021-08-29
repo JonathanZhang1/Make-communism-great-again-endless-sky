@@ -3,7 +3,15 @@ shipyard "New Rapublic"
 	"Super Fighter"
 	"Super Interceptor"
 	"New Life(Far)"
+
+shipyard "Core of New Republic"
+	"New Life"
+	"Super Fighter"
+	"Super Interceptor"
+	"New Life(Far)"
 	"New Life(Jump)"
+	"People's Vanguard"
+
 ship "New Life"
 	sprite "ship/new life"
 	thumbnail "thumbnail/new life"
@@ -192,3 +200,112 @@ ship "Super Interceptor"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
+
+ship "People's Vanguard"
+	sprite "ship/People's vanguard"
+	attributes
+		category "Heavy Warship"
+		"cost" 1580000000
+		"shields" 500000
+		"hull" 10000
+		"required crew" 750
+		"bunks" 2500
+		"mass" 10000
+		"drag" 50.1
+		"heat dissipation" .8
+		"fuel capacity" 2600
+		"cargo space" 1000
+		"outfit space" 5000
+		"weapon capacity" 2500
+		"engine capacity" 1500
+		weapon
+			"blast radius" 5000
+			"shield damage" 8000
+			"hull damage" 10000
+			"hit force" 20000
+	outfits
+		"D94-YV Shield Generator" 2
+		"Fusion Reactor"
+		"Jump Drive"
+		"LP576a Battery Pack"
+		"NT-200 Nucleovoltaic" 4
+		"Plasma Gatling" 16
+		"Plasma Turret" 16
+		Ramscoop 20
+		"Tyrant Plasma Steering" 4
+		"Tyrant Plasma Thruster" 4
+		"XF-333 Ship Core" 4
+		"nGVF-EE Fuel Cell" 8
+	engine -167.5 335
+	turret -340 -157.5
+	turret -268 -158
+	turret -340 -86.5
+	turret -268.5 -86.5
+	turret -339.5 128
+	turret -267.5 128
+	turret -339.5 199.5
+	turret -267.5 199.5
+	gun -89.5 -429.5
+	gun -85 -430.5
+	gun -79.5 -431
+	gun -74 -430.5
+	gun -118 -397.5
+	gun -113 -397.5
+	gun -108 -396.5
+	gun -102 -397.5
+	engine 167.5 335
+	turret 340 -157.5
+	turret 268 -158
+	turret 340 -86.5
+	turret 268.5 -86.5
+	turret 339.5 128
+	turret 267.5 128
+	turret 339.5 199.5
+	turret 267.5 199.5
+	gun 89.5 -429.5
+	gun 85 -430.5
+	gun 79.5 -431
+	gun 74 -430.5
+	gun 118 -397.5
+	gun 113 -397.5
+	gun 108 -396.5
+	gun 102 -397.5
+	bay "Fighter" -136 8 under
+	bay "Fighter" 136 8 under
+	bay "Fighter" 0 -132.5 under
+	bay "Fighter" 0 163.5 under
+	bay "Fighter" 0 7.5 under
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	bay "Fighter" 0 7.5
+	leak "leak" 115 66.5
+	leak "flame" 29 126
+	leak "big leak" -117 21
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	""

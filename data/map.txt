@@ -22588,6 +22588,7 @@ system "Kor Men"
 	fleet "Korath Home" 600
 	fleet "Small New Republic alien-attacking army" 800
 	fleet "Large New Republic alien-attacking army" 1500
+	fleet "Korath Human Attacker" 10000
 	attributes korath
 	belt 1260
 	haze _menu/haze-blackbody
@@ -27870,6 +27871,7 @@ system "New beginning"
 	fleet "Small Core Pirates" 5000
 	fleet "Large Independent" 20000
 	fleet "Korath Human Attacker" 2000
+	fleet "Vanguards" 50000
 	attributes core
 	belt 1232
 	minables iron 100 2.7345
@@ -27923,6 +27925,25 @@ system "New beginning"
 		minables tungsten 100 2
 		minables uranium 100 2
 		minables yottrite 100 2
+		object "Vanguard Space Station"
+			sprite planet/station5
+			distance 314
+			period 12.13
+			attributes core
+			belt 1232
+			minables iron 100 2.7345
+			minables gold 50 2.7345
+			minables silicon 100 2.7345
+			minables aluminum 100 2
+			minables copper 100 2
+			minables lead 100 2
+			minables neodymium 100 2
+			minables platinum 100 2
+			minables silver 75 2
+			minables titanium 100 2
+			minables tungsten 100 2
+			minables uranium 100 2
+			minables yottrite 100 2
 	object
 		sprite planet/gasGiant1
 		distance 1990.73
@@ -42537,6 +42558,17 @@ planet "God's Gift"
 	shipyard "New Rapublic"
 	outfitter "Common Outfits"
 	"required reputation" -200
+	bribe 0
+	security 0
+
+planet "Vanguard Space Station"
+	attributes core
+	government "Vanguards"
+	landscape land/space3
+	spaceport `none`
+	shipyard "Core of New Republic"
+	outfitter "Common Outfits"
+	"required reputation" 20000
 	bribe 0
 	security 0
 

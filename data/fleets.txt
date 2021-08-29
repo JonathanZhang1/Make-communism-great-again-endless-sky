@@ -14,9 +14,14 @@ fleet "New Republic Protector"
 	cargo 0
 	personality
 		heroic opportunistic
-	variant
-		"New Life" 5
-		"Super Fighter" 90
+	variant 3
+		"New Life" 2
+		"Super Fighter" 36
+	variant 5
+		"New Life" 1
+		"Super Fighter" 18
+	variant 5
+		"Super Interceptor" 20
 fleet "Small New Public liberation army"
 	government "The Republic of New Galaxy"
 	names "new republic fleets name"
@@ -61,3 +66,17 @@ fleet "Large New Republic alien-attacking army"
 	variant
 		"Super Interceptor(Jump)" 10
 		"New Life(Jump)" 3 48
+fleet "Vanguards"
+	government "Vanguards"
+	names "new republic fleets name"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 3
+		"New Life(Jump)" 2
+		"Super Fighter" 36
+	variant 5
+		"Super Interceptor(Jump)" 20
+	variant 1
+		"People's Vanguard"
+		"Super Figther" 120
